@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== Custom Enhancements for AeroTrack ===== */
+
+/* Global overrides (minimal) */
+html, body {
+  @apply bg-[#0f172a] text-white font-sans;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* App Heading */
+h1 {
+  @apply text-3xl font-bold text-center mb-6;
+}
+
+/* Section Containers */
+.section-card {
+  @apply bg-gray-800 rounded-lg p-4 mb-4 shadow;
+}
+
+/* Button Styles */
+.btn {
+  @apply px-4 py-2 rounded shadow font-medium transition-colors;
+}
+.btn-refresh {
+  @apply bg-blue-600 hover:bg-blue-700 text-white;
+}
+.btn-darkmode {
+  @apply bg-gray-700 hover:bg-gray-800 text-white absolute top-4 right-4;
+}
+
+/* Pollution Legend Styling */
+.pollution-legend {
+  @apply bg-black bg-opacity-80 text-white text-xs rounded shadow-lg p-4;
+  width: 200px;
+}
+.pollution-legend-item {
+  @apply flex items-center gap-2 mb-1;
+}
+.pollution-legend-color {
+  @apply w-5 h-3 rounded;
+}
+
+/* AQI Tooltip Circle */
+.leaflet-tooltip {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* Map Container Styling */
+.map-container {
+  @apply relative w-full;
+  height: 500px;
+}
+
+/* Opacity Slider Label */
+.opacity-slider-label {
+  @apply font-medium mr-2 inline-block;
+}
+
+/* Slider for layer opacity */
+input[type="range"] {
+  @apply w-40 mt-2;
+}

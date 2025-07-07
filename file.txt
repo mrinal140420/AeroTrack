@@ -1,0 +1,19 @@
+aerotrack-dashboard/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── AQICard.jsx
+│   │   ├── ForecastChart.jsx
+│   │   ├── HeatmapMap.jsx
+│   │   ├── HealthTips.jsx
+│   │   └── LocationSelector.jsx
+│   ├── pages/
+│   │   └── Home.jsx
+│   ├── services/
+│   │   └── api.js
+│   ├── App.jsx
+│   └── main.jsx
+├── tailwind.config.js
+├── vite.config.js
+└── package.json
