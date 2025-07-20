@@ -35,8 +35,10 @@ It provides a **user-friendly dashboard**, **accurate visual overlays**, and **a
 
 ---
 <img width="2879" height="1551" alt="image" src="https://github.com/user-attachments/assets/c17fd61e-2ae7-440f-8e7c-dfb50dea32d2" />
-![Uploading image.png…]()
-![Uploading image.png…]()
+<img width="2879" height="1728" alt="image" src="https://github.com/user-attachments/assets/8e77f674-643f-4e28-81d2-f8f65059342a" />
+<img width="2879" height="1142" alt="image" src="https://github.com/user-attachments/assets/5c5bf075-371c-40e5-b4a6-b62f46f8fe59" />
+
+
 
 ## ⚙️ Installation
 
